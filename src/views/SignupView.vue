@@ -38,7 +38,7 @@
                     </div>
 
                     <div>
-                        <button class="py-4 px-6 bg-purple-600 text-white rounded-lg">Sign up</button>
+                        <button class="py-4 px-6 bg-sky-600 text-white rounded-lg">Sign up</button>
                     </div>
                 </form>
             </div>

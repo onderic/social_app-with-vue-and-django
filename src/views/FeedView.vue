@@ -22,7 +22,7 @@
                 <div class="p-4 border-t border-gray-100 flex justify-between">
                     <a href="#" class="inline-block py-4 px-6 bg-gray-600 text-white rounded-lg">Attach image</a>
 
-                    <a href="#" class="inline-block py-4 px-6 bg-purple-600 text-white rounded-lg">Post</a>
+                    <a href="#" class="inline-block py-4 px-6 bg-sky-600 text-white rounded-lg">Post</a>
                 </div>
             </div>
 
@@ -122,7 +122,7 @@
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
                             <p class="text-xs"><strong>Onderi</strong></p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Show</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
                             <p class="text-xs"><strong>Onderi</strong></p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Show</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
                             <p class="text-xs"><strong>Onderi</strong></p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Show</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
                     </div>
                 </div>
 
@@ -152,7 +152,7 @@
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
                             <p class="text-xs"><strong>Onderi</strong></p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Show</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                             <span class="text-gray-500">180 posts</span>
                         </p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Explore</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
                     </div>
                 </div>
                 <div class="space-y-4">
@@ -178,7 +178,7 @@
                             <span class="text-gray-500">180 posts</span>
                         </p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Explore</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
                     </div>
                 </div>
                 <div class="space-y-4">
@@ -189,7 +189,7 @@
                             <span class="text-gray-500">180 posts</span>
                         </p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Explore</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
                     </div>
                 </div> <div class="space-y-4">
                     <div class="flex items-center justify-between ">
@@ -199,7 +199,7 @@
                             <span class="text-gray-500">180 posts</span>
                         </p>
                         </div>
-                        <a href="#" class="py-2 px-3 bg-purple-600 text-white text-xs rounded-lg">Explore</a>
+                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
                     </div>
                 </div>
             </div>
