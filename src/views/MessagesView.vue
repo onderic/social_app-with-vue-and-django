@@ -7,7 +7,7 @@
                         <div class="flex items-center space-x-2">
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full">
                             
-                            <p class="text-xs"><strong>Code With Stein</strong></p>
+                            <p class="text-xs"><strong>Onderi Opano</strong></p>
                         </div>
 
                         <span class="text-xs text-gray-500">18 minutes ago</span>
@@ -17,7 +17,7 @@
                         <div class="flex items-center space-x-2">
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full">
                             
-                            <p class="text-xs"><strong>Code With Stein</strong></p>
+                            <p class="text-xs"><strong>Onderi Opano</strong></p>
                         </div>
 
                         <span class="text-xs text-gray-500">18 minutes ago</span>
@@ -27,7 +27,7 @@
                         <div class="flex items-center space-x-2">
                             <img src="src/assets/1.jpeg" class="w-[40px] rounded-full">
                             
-                            <p class="text-xs"><strong>Code With Stein</strong></p>
+                            <p class="text-xs"><strong>Onderi Opano</strong></p>
                         </div>
 
                         <span class="text-xs text-gray-500">18 minutes ago</span>
@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="p-4 border-t border-gray-100 flex justify-between">
-                    <a href="#" class="inline-block py-4 px-6 bg-sky-600 text-white rounded-lg">Post</a>
+                    <a href="#" class="inline-block py-4 px-6 bg-sky-600 hover:bg-sky-700 ... text-white rounded-lg">Post</a>
                 </div>
             </div>
         </div>

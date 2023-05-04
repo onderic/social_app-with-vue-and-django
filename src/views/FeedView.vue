@@ -37,7 +37,7 @@
                     <p class="text-gray-600">18 minutes ago</p>
                 </div>
 
-                <img src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2670&amp;q=80" class="w-full rounded-lg">
+                <img src="src/assets/pic1.jpg" class="w-full rounded-lg">
 
                 <div class="my-6 flex justify-between">
                     <div class="flex space-x-6">
@@ -107,109 +107,17 @@
             </div>
         </div>
 
-        <!-- <div class="main-right col-span-1 space-y-4">
-            <PeopleYouMayKnow />
-
-            <Trends />
-        </div> -->
+       
         <div class="main-right col-span-1 space-y-4">
-            <div class="p-4 bg-white border border-gray-200 rounded-lg">
-                <h3 class="mb-6 text-xl">People you may know</h3>
-
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Onderi</strong></p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
-                    </div>
-                </div>
-
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Onderi</strong></p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
-                    </div>
-                </div>
-
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Onderi</strong></p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
-                    </div>
-                </div>
-
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Onderi</strong></p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Show</a>
-                    </div>
-                </div>
-            </div>
-            <div class="p-4 bg-white border border-gray-200 rounded-lg">
-                <h3 class="mb-6 text-xl">Trends</h3>
-
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Russia</strong><br>
-                            <span class="text-gray-500">180 posts</span>
-                        </p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Chelsea</strong><br>
-                            <span class="text-gray-500">180 posts</span>
-                        </p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
-                    </div>
-                </div>
-                <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Market</strong><br>
-                            <span class="text-gray-500">180 posts</span>
-                        </p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
-                    </div>
-                </div> <div class="space-y-4">
-                    <div class="flex items-center justify-between ">
-                        <div class="flex items-center space-x-2">
-                            <img src="src/assets/1.jpeg" class="w-[40px] rounded-full" alt="">
-                            <p class="text-xs"><strong>Progomming</strong><br>
-                            <span class="text-gray-500">180 posts</span>
-                        </p>
-                        </div>
-                        <a href="#" class="py-2 px-3 bg-sky-600 text-white text-xs rounded-lg">Explore</a>
-                    </div>
-                </div>
-            </div>
+            <PeopleYouMayKnow/>
+            <Trends/>
         </div>
       
        
     </div>
 </template>
 
-<!-- <script>
+<script>
 import PeopleYouMayKnow from '../components/PeopleYouMayKnow.vue'
 import Trends from '../components/Trends.vue'
 
@@ -220,4 +128,4 @@ export default {
         Trends,
     }
 }
-</script> -->
+</script>
