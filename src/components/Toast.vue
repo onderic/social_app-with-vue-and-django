@@ -13,8 +13,5 @@ import { useToastStore } from '@/stores/toast'
 
 const store = useToastStore()
 
-return {
-    store
-}
 </script>
 

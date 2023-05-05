@@ -22,7 +22,7 @@
                 <div class="p-4 border-t border-gray-100 flex justify-between">
                     <a href="#" class="inline-block py-4 px-6 bg-gray-600 text-white rounded-lg">Attach image</a>
 
-                    <a href="#" class="inline-block py-4 px-6 bg-sky-600 text-white rounded-lg">Post</a>
+                    <a href="#" class="inline-block py-4 px-6 bg-sky-500 hover:bg-sky-700 ... text-white rounded-lg">Post</a>
                 </div>
             </div>
 
