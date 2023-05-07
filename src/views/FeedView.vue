@@ -15,18 +15,22 @@
 
         <div class="main-center col-span-2 space-y-4">
             <div class="bg-white border border-gray-200 rounded-lg">
+            <form v-on:submit.prevent="submitForm" method="post" >
                 <div class="p-4">  
-                    <textarea class="p-4 w-full bg-gray-100 rounded-lg" placeholder="What are you thinking about?"></textarea>
+                    <textarea v-model="body" class="p-4 w-full bg-gray-100 rounded-lg" placeholder="What are you thinking about?"></textarea>
                 </div>
 
                 <div class="p-4 border-t border-gray-100 flex justify-between">
                     <a href="#" class="inline-block py-4 px-6 bg-gray-600 text-white rounded-lg">Attach image</a>
 
-                    <a href="#" class="inline-block py-4 px-6 bg-sky-500 hover:bg-sky-700 ... text-white rounded-lg">Post</a>
+                    <button ref="#" class="inline-block py-4 px-6 bg-sky-500 hover:bg-sky-700 ... text-white rounded-lg">Post</button>
                 </div>
+            </form>
             </div>
 
-            <div class="p-4 bg-white border border-gray-200 rounded-lg">
+           
+
+                <!-- <div class="p-4 bg-white border border-gray-200 rounded-lg">
                 <div class="mb-6 flex items-center justify-between">
                     <div class="flex items-center space-x-6">
                         <img src="src/assets/1.jpeg" class="w-[40px] rounded-full">
@@ -38,7 +42,7 @@
                 </div>
 
                 <img src="src/assets/pic1.jpg" class="w-full rounded-lg">
-
+                
                 <div class="my-6 flex justify-between">
                     <div class="flex space-x-6">
                         <div class="flex items-center space-x-2">
@@ -64,20 +68,24 @@
                         </svg>   
                     </div>   
                 </div>  
-            </div>
+            </div>  -->
+           
 
-            <div class="p-4 bg-white border border-gray-200 rounded-lg">
+            <div class="p-4 bg-white border border-gray-200 rounded-lg"
+                v-for="post in posts"
+                     v-bind:key="post.id"
+                >
                 <div class="mb-6 flex items-center justify-between">
                     <div class="flex items-center space-x-6">
                         <img src="src/assets/1.jpeg" class="w-[40px] rounded-full">
                         
-                        <p><strong>Onderi Opano</strong></p>
+                        <p><strong>{{post.created_by.name }}</strong></p>
                     </div>
 
-                    <p class="text-gray-600">18 minutes ago</p>
+                    <p class="text-gray-600">{{ post.created_at_formatted }} ago</p>
                 </div>
 
-                <p>Am a great software engineer</p>
+                <p>{{post.body}}</p>
 
                 <div class="my-6 flex justify-between">
                     <div class="flex space-x-6">
@@ -118,6 +126,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 import PeopleYouMayKnow from '../components/PeopleYouMayKnow.vue'
 import Trends from '../components/Trends.vue'
 
@@ -126,6 +135,47 @@ export default {
     components: {
         PeopleYouMayKnow,
         Trends,
+    },
+
+    data(){
+        return {
+            posts: [],
+            body: ""
+        }
+    },
+    mounted() {
+       this.getFeed()
+    },
+
+    methods: {
+        getFeed(){
+            axios
+                .get('/api/posts/')
+                .then(response => {
+                    console.log('data', response.data)
+                    this.posts = response.data
+                })
+                .catch(error => {
+                    console.log('error', error)
+                })
+        },
+        submitForm(){
+            console.log('submitForm', this.body)
+
+            axios
+                .post('/api/posts/create/', {
+                    'body': this.body
+                })
+                .then(response => {
+                    console.log('data',response.data)
+                    this.posts.unshift(response.data)
+                    this.body = ''
+                })
+                .catch(error => {
+                    console.log('error', error)
+                })
+        }
     }
+
 }
 </script>
